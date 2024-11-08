@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume - Tyril Bol</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background-color: #add8e6;
+      }
+
+      .shadowbox {
+        width: 21cm;
+        margin: 30mm 0;
+        border: 1px solid #333;
+        box-shadow: 8px 8px 5px #444;
+        padding: 48px 60px;
+        background-image: url("./background.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto 20px auto;
+        border-radius: 50%;
+        border: 2px solid #333;
+      }
+
+      h1 {
+        text-align: center;
+        color: black;
+        font-style: italic;
+        margin-bottom: 20px;
+      }
+
+      .section-title {
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-top: 15px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .left-column,
+      .right-column {
+        width: 45%;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      #contact,
+      #skills,
+      #language,
+      #experience,
+      #education {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .contact-item img {
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+      }
+
+      .section-title,
+      #summary,
+      #experience,
+      #education {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shadowbox">
+      <h1>Tyril Bol</h1>
+      <center>
+        <img src="ub.jpg" alt="Profile Picture" height="130" width="130" />
+      </center>
+
+      <div class="container">
+        <!-- Left Column -->
+        <div class="left-column">
+          <p class="section-title">CONTACT</p>
+          <ul id="contact">
+            <li class="contact-item">
+              <img
+                src="Facebook.jpg"
+                alt="Facebook"
+                style="width: 20px; height: 20px"
+              />
+              <a
+                href="https://www.facebook.com/profile.php?id=100084461811617&mibextid=ZbWKwL"
+                >Facebook</a
+              >
+            </li>
+            <li class="contact-item">
+              <img
+                src="whatsapp.jpeg"
+                alt="Whatsapp"
+                style="width: 20px; height: 25px"
+              />
+              +501 652-3743
+            </li>
+            <li class="contact-item">
+              <img
+                src="email.png"
+                alt="Gmail"
+                style="width: 15px; height: 15px"
+              />
+              2022157355@ub.edu.bz
+            </li>
+          </ul>
+
+          <p class="section-title">SKILLS</p>
+          <ul id="skills">
+            <li>Computer Repair</li>
+            <li>Computer Proficiency</li>
+            <li>Communication Skills</li>
+            <li>Problem Solving Skills</li>
+            <li>Time Management</li>
+          </ul>
+
+          <p class="section-title">LANGUAGE</p>
+          <ul id="language">
+            <li>English</li>
+            <li>Creole</li>
+            <li>Mayan</li>
+          </ul>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+          <p class="section-title">SUMMARY</p>
+          <p id="summary">Background in computer hardware and software.</p>
+
+          <p class="section-title">EXPERIENCE</p>
+          <ul id="experience">
+            <li>Built HTML sites</li>
+            <li>Programming with Python</li>
+            <li>University of Belize Hackathon Practical Experience</li>
+            <li>
+              Final Project for Our Lady of Guadalupe Primary School Website
+            </li>
+          </ul>
+
+          <p class="section-title">EDUCATION</p>
+          <ul id="education">
+            <li>
+              University of Belize, Information Technology (2021 - Present)
+            </li>
+            <li>
+              Ocean Academy, High School (June 2022), Business Concentration
+            </li>
+            <li>Your R.C. School (2002 - 2010)</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="section-title">REFERENCE</p>
+      <p>
+        Dr. Kieran Ryan, University of Belize, 610-6666<br />
+        Programming I teacher, University of Belize, ###-####<br />
+        High School recommender, School, ###-####
+      </p>
+    </div>
+  </body>
+</html>
